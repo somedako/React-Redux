@@ -1,0 +1,48 @@
+.root {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.root li {
+    display: inline-flex;
+    color: #474955;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+}
+.root li.selected {
+    color: #7ebc3c;
+}
+
+.root li:hover {
+    color: #7ebc3c;
+}
+
+:global(.previous) {
+    font-size: 24px;
+    font-weight: 500;
+    color: #474955;
+    cursor: pointer;
+}
+
+:global(.next) {
+    font-size: 24px;
+    font-weight: 500;
+    color: #474955;
+    cursor: pointer;
+}
+
+:global(.selected a) {
+    color: #7ebc3c;
+}
+
+@media (max-width: 600px) {
+    .root {
+        gap: 30px;
+    }
+}

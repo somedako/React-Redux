@@ -1,0 +1,33 @@
+.root {
+    position: relative;
+    max-width: 631px;
+    margin-bottom: 15px;
+}
+
+.input {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background: #5a5c66;
+    width: 100%;
+    padding: 18px 26px;
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.input::placeholder {
+    color: #b2b7bf;
+}
+
+.input:focus {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 16px;
+    right: 24px;
+    z-index: 2;
+}

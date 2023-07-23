@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+h1 {
+    text-align: center;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+    max-width: 1556px;
+    background-color: #fff;
+    margin: 23px auto;
+    padding: 0 78px;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    margin-left: 25px;
+    background: none;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button.active svg {
+    transform: rotate(180deg);
+}

@@ -1,0 +1,32 @@
+.table {
+    width: 100%;
+    margin: 0 auto;
+    color: #474955;
+    font-weight: 500;
+}
+
+.table thead tr {
+    padding: 19px 16px 16px 23px;
+}
+
+.table thead tr td:first-child {
+    width: 14%;
+}
+
+.table td {
+    border: 1px solid #e3e6ec;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.table thead td {
+    background-color: #474955;
+    border: 1px solid #474955;
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    .table td {
+        padding: 5px;
+    }
+}
